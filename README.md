@@ -198,4 +198,4 @@ claude.ai 的自定义连接器：URL 填上面的地址，认证选不需要登
 
 ## 许可与致谢
 
-推理代码来自 GPT-SoVITS（MIT），模型在构建时从各发布方下载。详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+本仓库按 [MIT 协议](LICENSE) 发布。推理代码来自 GPT-SoVITS（MIT），模型在构建时从各发布方下载，各自遵循原许可，详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
