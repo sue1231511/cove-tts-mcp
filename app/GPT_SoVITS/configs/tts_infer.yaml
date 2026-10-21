@@ -1,0 +1,11 @@
+# api_v2 启动时读取的推理配置（start.sh 不带 -c，默认读这个文件）。
+# 必须提交进仓库：缺了它 TTS_Config 会按默认 v2 配置去找 gsv-v2final-pretrained 底模，
+# 镜像里根本没下载那套权重，api_v2 启动即崩。这里指向构建期下载的 Gove 微调权重。
+custom:
+  bert_base_path: GPT_SoVITS/pretrained_models/chinese-roberta-wwm-ext-large
+  cnhuhbert_base_path: GPT_SoVITS/pretrained_models/chinese-hubert-base
+  device: cpu
+  is_half: false
+  t2s_weights_path: GPT_weights_v2Pro/Gove-e15.ckpt
+  vits_weights_path: SoVITS_weights_v2Pro/Gove-e8.pth
+  version: v2ProPlus
